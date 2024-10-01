@@ -105,7 +105,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Not deployed
+- [View the app](https://dictionary-wine-pi.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
