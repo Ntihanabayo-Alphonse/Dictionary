@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICTIONARY APP</title>
+    <script src="https://kit.fontawesome.com/b20c23be1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="sound"></audio>
+    <div class="container">
+        <h1>Dictionary App</h1>
+
+        <!-- Search center -->
+        <div class="search-box">
+            <input type="text" placeholder="Type the word here..." id="inp-word">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <!-- Result -->
+        <div class="result" id="result">
+            <div class="word">
+                <h3 id="result-word"></h3>
+                <span><i class="fa fa-volume-high" onclick="playSound()"></i></span>
+            </div>
+
+            <div class="details">
+                <span id="speech"></span> <span id="pronounce"></span>
+            </div>
+            <p class="word-meaning" id="word-meaning"></p> 
+            <p class="word-example" id="word-example"></p>
+        </div>
+
+        <!-- Error -->
+        <h5 id="error"></h5>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

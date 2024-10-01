@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1f194c;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+/* Container */
+.container{
+    background: #fff;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0,0,0,.4);
+}
+
+h1{
+    text-align: center;
+    color: #007b13;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-shadow: 3px 3px 2px rgba(0,0,0,.4);
+}
+
+/* Search center */
+.search-box input{
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #9e3ddf;
+    width: 70%;
+    font-size: 16px;
+    color: #484848;
+}
+
+.search-box button{
+    padding: 15px 40px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background: #9e3ddf;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+/* Result */
+.result{
+    margin-top: 30px;
+    display: none;
+}
+
+.result.show{
+    display: block;
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+}
+
+.result .word h3{
+    font-size: 30px;
+    color: #1f194c;
+}
+
+.result .word span i{
+    color: #3f377b;
+    cursor: pointer;
+}
+
+.result .details{
+    font-size: 15px;
+    color: #959595;
+    margin-top: 5px;
+}
+
+.word-meaning{
+    color: #515151;
+    font-size: 17px;
+}
+
+.word-example{
+    color: #676767;
+    text-transform: italic;
+    border-left: 2px solid #9e3ddf;
+    margin-top: 26px;
+    font-size: 16px;
+    padding-left: 16px;
+    font-style: italic;
+}
+
+a{
+    color: #9e3ddf;
+    text-decoration: none;
+}
+
+/* Error */
+#error{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 16px;
+}
