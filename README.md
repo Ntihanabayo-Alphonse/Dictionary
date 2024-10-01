@@ -25,7 +25,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="dictionary.png" alt="logo" width="100"  height="80" />
+  <img src="./dictionary/dictionary.png" alt="logo" width="100"  height="80" />
   <br/>
 
   <h3><b>Dictionary App</b></h3>
@@ -135,7 +135,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Alphonse256/JS-Fetch_API.git
+  git clone https://github.com/Ntihanabayo-Alphonse/Dictionary.git
 ```
 
 ### Open
@@ -143,7 +143,7 @@ Clone this repository to your desired folder:
 Open this project with:
 
 ```sh
-  cd JS-Fetch_API/
+  cd Dictionary/
 ```
 
 ### Usage
@@ -180,14 +180,14 @@ github webpages
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="Alphonse256"></a>
+## 👥 Authors <a name="Ntihanabayo-Alphonse"></a>
 
 > Mention all of the collaborators of this project.
 
-:man_technologist:  **Alphonse256** :writing_hand: 
+:man_technologist:  **Ntihanabayo-Alphonse** :writing_hand: 
 
-- GitHub: [githubhandle](https://github.com/Alphonse256)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ntihanabayo-alphonse-368388252/) 
+- GitHub: [githubhandle](https://github.com/Ntihanabayo-Alphonse)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ntihanabayo-alphonse/) 
 
 
 
